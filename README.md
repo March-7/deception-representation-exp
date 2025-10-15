@@ -1,13 +1,6 @@
-# When Truthful Representations Flip Under Deceptive Instructions?
-
-This repository accompanies the paper “When Truthful Representations Flip Under Deceptive Instructions?” and studies how deceptive instructions reshape LLM internal representations compared to truthful/neutral prompts, with both output-level evaluation and representation-level analyses (linear probes and sparse autoencoders). Paper: https://www.arxiv.org/pdf/2507.22149
-
 ## Overview
 
-- We evaluate LLMs on factual verification under three prompt personas: Truthful, Deceptive, Neutral.
-- We show the model’s intended True/False output is linearly decodable from hidden states under all instruction types.
-- Using Sparse Autoencoders (SAEs), we quantify deception-induced representational shifts (L2, cosine, overlap), concentrated in early-to-mid layers; truthful and neutral are closely aligned.
-- We identify deception-sensitive SAE features that define a compact “honesty subspace.”
+This project seeks to improve the honesty of large language models (LLMs) by utilizing representation engineering (RepE) techniques across different open-source LLMs, including the LLaMA family. The focus is on detecting and controlling dishonest outputs by analyzing internal representations of honesty. The study will compare multiple models and examine how their architecture and training influence the effectiveness of honesty control mechanisms. By applying methods such as Linear Artificial Tomography (LAT), we aim to enhance transparency and evaluate the efficacy of honesty improving interventions across various LLM architectures.
 
 ## Installation
 
